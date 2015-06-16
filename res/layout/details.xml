@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="INSTRUCTIONS"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#002E63"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="28dp"
+        android:textColor="#ff0000"
+        android:text="**YOU HAVE ONLY ONE CHANCE TO VOTE,SO VOTE CAREFULLY.\n\n**SELECT VOTE BUTTON TO BE AUTHORIZE FOR VOTE.\n\n**FOR GRANT AUTHENTICATION TO VOTE FILL YOUR USERNAME ONCE MORE.\n\n**ON VOTING PAGE SELECT THE BUTTON OF YOUR CHOICE OF PARTY TO VOTE FOR THEM.\n\n**PLEASE LOGOUT MUST AT THE END"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ze" />
+
+</RelativeLayout>
